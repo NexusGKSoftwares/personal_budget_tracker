@@ -1,4 +1,9 @@
-source 'https://rubygems.org'
+# frozen_string_literal: true
 
-gem 'active_record', '~> 7.0'
-gem 'sqlite3', '~> 1.6' # Add this if you're using SQLite
+source "https://rubygems.org"
+
+
+gem "rails"
+gem 'bcrypt'          # For password hashing
+gem 'sqlite3'         # For database
+
